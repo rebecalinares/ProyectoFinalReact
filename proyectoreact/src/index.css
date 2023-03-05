@@ -1,0 +1,234 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item a{
+  color: black;
+  text-decoration: none;
+}
+
+.nav-item a:hover{
+  color: rgb(4, 28, 4);
+}
+
+/* Libros */
+
+.list-books{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5rem;
+}
+
+.books{
+  margin: 1rem;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff26 ;
+  max-width: 280px;
+  margin: 1.5rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 2rem;
+  border: none;
+  border-radius: 15px;
+}
+
+h3, h4{
+  font-size: 15px;
+  align-items: center;
+  margin: 1rem;
+}
+
+.titulo{
+  font-size: 20px;
+  padding-top: 1rem;
+}
+
+.tamaño{
+  font-size: 11px;
+  margin: 1rem;
+}
+
+.precio{
+  font-size: 22px;
+}
+
+.btn {
+  font-size: 13px;
+  border-radius: 20px;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  align-items: center;
+  padding: 20px;
+}
+
+/*Item Detail*/
+
+.cardDetail {
+  max-width: 1200px;
+  width: 100%;
+  margin: 100px auto;
+  box-shadow: 0 0 5px #ccc;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px 0;
+}
+
+.details .big-image{
+  width: auto;
+  overflow: hidden;
+  margin: 5px;
+}
+
+.details .box{
+  max-width: 500px;
+  min-width: 290px;
+  margin: 25px;
+}
+
+.box .row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.box .row h2{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.box .row h5{
+  color: rgb(17, 70, 17);
+  text-transform: unset;
+}
+
+.box p{
+  line-height: 1.5;
+  margin: 15px 0;
+}
+
+
+.cardDetail-btn {
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.addToCart{
+  background: rgb(0, 0, 0);
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 20px 25px;
+  margin-top: 15px;
+  border-radius: 3px;
+  text-shadow: 0 1px 0 rgba(121, 118, 118, 0.575);
+  box-shadow: 0 1px 3px rgba(53, 51, 51, 0.3);
+}
+
+.addToCart:hover{
+  background-color: #34333b;
+}
+
+.addToCart:active{
+    background-color: #18181a;
+}
+
+.buy{
+  background: rgb(0, 0, 0);
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 20px 25px;
+  margin-top: 15px;
+  border-radius: 3px;
+  text-shadow: 0 1px 0 rgba(121, 118, 118, 0.575);
+  box-shadow: 0 1px 3px rgba(53, 51, 51, 0.3);
+  text-decoration: none;
+}
+
+.buy:hover{
+  background-color: #34333b;
+}
+
+.buy:active{
+    background-color: #18181a;
+}
+
+.buy-cart{
+  background: rgb(0, 0, 0);
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px 25px;
+  margin-top: 10px;
+  border-radius: 3px;
+  text-shadow: 0 1px 0 rgba(121, 118, 118, 0.575);
+  box-shadow: 0 1px 3px rgba(53, 51, 51, 0.3);
+  text-decoration: none;
+}
+
+.buy-cart:hover{
+  background-color: #34333b;
+}
+
+.buy-cart:active{
+    background-color: #18181a;
+}
+
+.dropCart{
+  background: rgb(185, 23, 23);
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px 25px;
+  margin-top: 10px;
+  border-radius: 3px;
+  text-shadow: 0 1px 0 rgba(121, 118, 118, 0.575);
+  box-shadow: 0 1px 3px rgba(53, 51, 51, 0.3);
+  text-decoration: none;
+}
+
+.dropCart:hover{
+  background-color: #a45959;
+}
+
+.dropCart:active{
+    background-color: #553636;
+}
+
+.btn-inicio{
+  background: rgb(0, 0, 0);
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px 25px;
+  margin-top: 10px;
+  border-radius: 3px;
+  text-shadow: 0 1px 0 rgba(121, 118, 118, 0.575);
+  box-shadow: 0 1px 3px rgba(53, 51, 51, 0.3);
+  text-decoration: none;
+}
+
+.btn-inicio:hover{
+  background-color: #383c3a;
+}
+
+.btn-inicio:active{
+    background-color: #237734;
+}
+
